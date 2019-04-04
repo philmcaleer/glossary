@@ -1,3 +1,0 @@
-## numeric
-
-The integer and double [data types](#data-type) are numeric.

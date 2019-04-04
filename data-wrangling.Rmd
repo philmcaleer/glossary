@@ -1,3 +1,0 @@
-## data wrangling
-
-The process of preparing data for visualisation and statistical analysis.  
