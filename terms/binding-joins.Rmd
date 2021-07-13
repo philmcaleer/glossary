@@ -1,0 +1,9 @@
+## binding joins
+
+<dfn>[Joins](j.html#joins) that bind one table to another by adding their rows or columns together.</dfn>
+
+* [bind_rows](b.html#bind_rows)
+* [bind_cols](b.html#bind_cols)
+
+
+

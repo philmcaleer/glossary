@@ -1,17 +1,23 @@
 # psyTeachR styles and functions
 # do not edit!!!!!
 
-library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
 library(webex)
+library(knitr)
+library(readr)
 
 # default knitr options
 knitr::opts_chunk$set(
   echo       = TRUE,
-  results    = "hold",
+  #results    = "hold",
   out.width = '100%',
   fig.width  = 8, 
   fig.height = 5, 
   fig.align = 'center',
+  collapse = TRUE,
+  comment = "#>",
   fig.cap='**CAPTION THIS FIGURE!!**'
 )
 
@@ -39,6 +45,11 @@ knitr::knit_hooks$set(verbatim = function(before, options, envir) {
     "<code>&#96;&#96;&#96;</code></div>"
   }
 })
+
+## verbatim inline R in backticks
+backtick <- function(code) {
+  paste0("<code>&#096;", code, "&#096;</code>")
+}
 
 ## palette with psyTeachR logo colour
 psyteachr_colours <- function(vals = 1:6) {

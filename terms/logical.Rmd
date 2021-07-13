@@ -1,0 +1,25 @@
+## logical
+
+<dfn>A [data type](d.html#data-type) representing `TRUE` or `FALSE` values.</dfn>
+
+```{r}
+true_logical_values <- list(
+  full = TRUE,
+  abbreviated = T,
+  integer = as.logical(1),
+  equation = "A" == "A"
+)
+str(true_logical_values)
+```
+
+```{r}
+false_logical_values <- list(
+  full = FALSE,
+  abbreviated = F,
+  integer = as.logical(0),
+  equation = "A" == "B"
+)
+
+str(false_logical_values)
+```
+

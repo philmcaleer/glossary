@@ -1,0 +1,7 @@
+## base R
+
+<dfn>The set of R [functions](f.html#function) that come with a basic installation of R, before you add external [packages](p.html#package)</dfn>
+
+Contrast with [tidyverse](t.html#tidyverse).
+
+

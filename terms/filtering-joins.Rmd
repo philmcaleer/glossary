@@ -1,0 +1,11 @@
+## filtering joins
+
+<dfn>[Joins](j.html#joins) that act like the `dplyr::filter()` function in that they remove rows from the data in one table based on the values in another table.</dfn>
+
+The result of a filtering join will only contain rows from the left table and have the same number or fewer rows than the left table.
+
+* [anti_join](a.html#anti_join)
+* [semi_join](s.html#semi_join)
+
+
+

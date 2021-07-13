@@ -1,0 +1,12 @@
+## deviation score
+
+<dfn>A score minus the mean</dfn>
+
+```{r}
+tibble(
+  score = 8:12
+) %>%
+  mutate(mean = mean(score),
+         deviation_score = score - mean)
+```
+

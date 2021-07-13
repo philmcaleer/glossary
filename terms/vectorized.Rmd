@@ -1,0 +1,14 @@
+## vectorized
+
+<dfn>An [operator](o.html#operator) or [function](f.html#function) that acts on each [element](e.html#element) in a [vector](v.html#vector)</dfn>
+
+```{r}
+# Add 10 to each element in the vector a
+a <- 1:5
+a + 10
+
+# paste "!" to the end of each element in the vector b
+b <- c("Hey", "You")
+paste0(b, "!")
+```
+
